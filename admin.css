@@ -1,0 +1,43 @@
+.the99btcbfsupport a {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.the99btcbfsupport div {
+    display: none;
+    position: absolute;
+    width: 300px;
+    background: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.the99btcbfsupport:hover div {
+    display: block;
+}
+
+.the99btcoverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 100000;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.the99btcoverlay  div {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 350px;
+    height: 40px;
+    margin-left: -175px;
+    margin-top: -20px;
+    background-color: #FFFFFF;
+    color: #000000;
+    text-align: center;
+    z-index: 100010;
+    padding: 10px;
+}

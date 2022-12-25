@@ -1,0 +1,19 @@
+.the99btc-bf {
+    text-align: center;
+}
+
+.the99btc-bf #adcopy-outer {
+    margin: 0 auto 0 auto;
+}
+
+.the99btc-bf .message-success {
+    color: #3C763D;
+}
+
+.the99btc-bf .message-error {
+    color: #A94442;
+}
+
+.the99btc-bf .captcha {
+    display: none;
+}
